@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(markus-siemens-sITcNVEUM0A-unsplash.jpg) center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+hr {
+  border-color: #108bd3ad;
+  border-width: 3px;
+  max-width: 100px;
+}
+h1 {
+  font-size: 3rem;
+  color: #363840;
+  font-family: "Pattaya", sans-serif;
+}
+
+.btn {
+  font-weight: bold;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #00f3ff21;
+  border-color: #00f3ff21;
+}
+
+.btn-primary:hover {
+  background-color: #00f2ff70;
+  border-color: #00f3ff21;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}

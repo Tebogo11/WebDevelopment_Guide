@@ -1,0 +1,57 @@
+/* Selector {
+    Property : value;
+} */
+
+/* all elements */
+* {
+  text-align: right;
+}
+
+body {
+  background-image: url(johannes-plenio-3frKqU4EaEY-unsplash.jpg);
+  background-size: cover;
+}
+
+/* h2 p - all p in h2 */
+/* h2 > p - where parent is h2*/
+/* h2 + p - any p element after h2*/
+h2,
+p {
+  color: black;
+  text-align: center;
+  border: 5px solid rgba(255, 176, 90, 1);
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+p {
+  line-height: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-size: 80%;
+}
+/* class is a good way to style a group  */
+.webtext:hover:last-child {
+  color: blue;
+}
+/* hover adds style when cursor moves over element */
+/* last-child - last element is only affect in that group pf elements */
+/* ID - go for sections of elements (div)'s*/
+#div1 {
+  background: rgba(25, 176, 90, 1);
+}
+
+img {
+  float: left;
+}
+
+/* clear so its not part of the float  */
+footer {
+  clear: both;
+  text-align: center;
+}
